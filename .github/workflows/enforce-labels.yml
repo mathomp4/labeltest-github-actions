@@ -11,7 +11,7 @@ jobs:
     - uses: yogevbd/enforce-label-action@2.1.0
       env:
         REQUIRED_LABELS_ANY: "bug,enhancement,wontfix"
-        REQUIRED_LABELS_ANY_DESCRIPTION: "Select at least one label ['bug','enhancement','skip-changelog']"
+        REQUIRED_LABELS_ANY_DESCRIPTION: "Select at least one label ['bug','enhancement','wontfix']"
         REQUIRED_LABELS_ALL: "required"
         REQUIRED_LABELS_ALL_DESCRIPTION: "Select at least one label ['required']"
         BANNED_LABELS: "banned"
