@@ -14,7 +14,7 @@ jobs:
         with:
           mode: minimum
           count: 1
-          labels: "0 diff,0 diff trivial,Non 0-diff,0 diff structural"
+          labels: "0 diff,0 diff trivial,Non 0-diff,0 diff structural,0-diff trivial,Not 0-diff,0-diff,automatic,0-diff uncoupled,dependencies"
           add_comment: true
   blocking-label:
     runs-on: ubuntu-latest
@@ -25,5 +25,5 @@ jobs:
         with:
           mode: exactly
           count: 0
-          labels: "Contingent - DNA,Needs Lead Approval"
+          labels: "Contingent - DNA,Needs Lead Approval,Contingent -- Do Not Approve"
           add_comment: true
