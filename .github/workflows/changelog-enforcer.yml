@@ -8,7 +8,7 @@ jobs:
   changelog:
     runs-on: ubuntu-latest
     steps:
-    - uses: dangoslen/changelog-enforcer@v3
+    - uses: dangoslen/changelog-enforcer@allow-for-emojis-in-labels
       with:
         changeLogPath: 'CHANGELOG.md'
         skipLabels: "Changelog Skip,0 Diff Trivial,:wrench: Github Actions"
